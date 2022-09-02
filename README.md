@@ -11,7 +11,7 @@ pip install ping3
 # Commands:
   - **run** - start ping process. example: `pingstat.py run`                                                             
   - **list** - display hosts to monitor. example: `pingstat.py list`                                                             
-  - **add** - add host to monitor **--host** arg is mandatory . example: `pingstat.py add --host 127.0.0.1`                               
+  - **add** - add host to monitor **--host** arg is mandatory, you can add IP or domain names. example: `pingstat.py add --host google.com`
   - **del** - del host from monitor (no ping stat erase). **--host** arg is mandatory. example: `pingstat.py del --host 127.0.0.1`                   
   - **export** - save data into csv file. **--file** arg is mandatory, **--host** is optional filter. example: 'pingstat.py export --file 'res.csv' --host 127.0.0.1'
 
